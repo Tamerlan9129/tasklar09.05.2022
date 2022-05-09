@@ -1,0 +1,109 @@
+//task-1
+
+{
+      int [] array = {8,13,20,28,29};
+		bool result = true;
+		int number = 50;
+		for(int i=0;i <array.Length;i++){
+			if(array[i]> number){
+			   result = true;}
+			else{
+				result = false;
+			}
+        			
+	}
+		Console.WriteLine(result);
+}
+}
+
+//task 2
+
+int number = 1236987;
+		int digits = 0;
+		while(number >0){
+			digits = number%10;
+				number = (number-number%10)/10;
+			if(digits%2==1){
+				continue;}
+				
+				Console.WriteLine(digits);
+
+//task 3
+
+
+		  int [] arr = {13,29,32,16,19,22,65};
+		  int sum = 0;
+		  int avr = 1;
+		int j = 0;
+		for(int i = 0;i<arr.Length;i++){
+			if(i%2==0){
+				sum+=arr[i];
+				j++;
+				avr = sum/j;
+				}
+	}Console.WriteLine(avr);
+} 
+	}
+
+//task 4
+
+int [] arr = {33,18,12,36,59,62,88};
+		  int [] arr2 = new int[arr.Length];
+		  int j = 0;
+		for(int i = arr.Length-1;i>=0;i--){
+		  arr2[j]=arr[i];
+			j++;
+			
+				}
+		Console.WriteLine(arr2[6]);
+	}
+	 
+} 
+
+
+//task 5
+
+  int [] num = {123,2597,4923,56,896};
+		int count = 0;
+		int res = 0;
+		for(int i = 0; i <num.Length;i++){
+			if(num[i]> 0){
+				count++;
+				num[i]/=10;
+				res = num[i]+ count;
+				
+				Console.WriteLine(res);
+				
+			}
+			
+			
+	}
+
+
+//task 6
+
+int [] arr = {35,57,23,12,89};
+		int max = 0;
+		for(int i = 0;i<arr.Length;i++){
+			if(arr[i]>max){
+				max = arr[i];
+				
+			
+		}
+		
+	}Console.WriteLine(max);
+}
+}
+//task 7
+
+int [] arr = {55,16,23,92,89,1};
+		int min = arr[0];
+		for(int i = 0;i<arr.Length;i++){
+			if(arr[i]<min){
+				min = arr[i];			
+				}
+		
+}Console.WriteLine(min);
+	
+	}	
+}
