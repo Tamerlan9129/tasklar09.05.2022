@@ -1,0 +1,22 @@
+int[] arr1 = {211,9,-6,12,34,56,32,5,19};
+		int[] arr2 = {19,-6, 32};
+		bool res = false;
+		int counter = 0;
+		foreach(int first in arr1)
+			foreach(int second in arr2)
+			if(first==second){
+				counter++;
+			
+			}
+				if(counter == arr2.Length){
+					res = true;
+				Console.WriteLine(res);
+		}
+				else{
+				Console.WriteLine(res);
+				}
+			
+	}
+			
+}
+	
